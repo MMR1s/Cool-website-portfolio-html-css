@@ -85,7 +85,6 @@ header ul li a.active {
 }
 
 
-/* Animation keyframes */
 @keyframes animate1 {
     0% {
         transform: translateY(-10%);
@@ -215,7 +214,6 @@ header ul li a.active {
     z-index: 0;
 }
 
-/* Animated gradient effect */
 .bgcursor::before {
     content: '';
     position: absolute;
@@ -224,7 +222,6 @@ header ul li a.active {
     animation: animate2 10s normal infinite;
 }
 
-/* Animation keyframes */
 @keyframes animate2 {
     0% {
         transform: translateY(-100%);
@@ -266,7 +263,7 @@ section span:hover {
     z-index: 100;
 }
 
-@media only screen and (max-width: 1024px) and (max-height: 646px) {
+@media only screen and (max-width: 1024px) {
     .share {
         bottom: 12%;
         left: 53%;
@@ -279,7 +276,7 @@ section span:hover {
 }
 
 
-@media only screen and (max-width: 769px) and (max-height: 646px) {
+@media only screen and (max-width: 769px) {
     .share {
         left: 45%;
         bottom: 12%;
@@ -295,7 +292,7 @@ section span:hover {
     }
 }
 
-@media only screen and (max-width: 426px) and (max-height: 646px) {
+@media only screen and (max-width: 426px) {
 
     header {
         position: absolute;
@@ -396,7 +393,7 @@ section span:hover {
     }
 }
 
-@media only screen and (max-width: 376px) and (max-height: 646px) {
+@media only screen and (max-width: 376px) {
     .share {
         left: 65px;
     }
@@ -405,7 +402,7 @@ section span:hover {
     }
 }
 
-@media only screen and (max-width: 321px) and (max-height: 646px) {
+@media only screen and (max-width: 321px) {
     .share {
         bottom: 50px;
         left: 35px;
